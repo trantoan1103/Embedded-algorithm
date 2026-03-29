@@ -1,1 +1,1 @@
-#Alsorithm roadmap for embedded engineer. This is can be done by bunch of problem on leetcode
+Algorithm roadmap for embedded engineer. This roadmap is suggeted by a expert at fpt telecom for the beginers who want to improve problem solving skill and sharp mindset whenever encounter difficult bug while coding.
