@@ -23,5 +23,7 @@ public:
             }
         }
         return (i == word1.size() && p == word2.size());
-    }
+    } 
+    
 };
+
