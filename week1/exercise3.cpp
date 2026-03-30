@@ -1,5 +1,7 @@
+#include <iostream>
 #include <vector>
 #include <string>
+ using namespace std;
 class Solution {
 public:
     bool arrayStringsAreEqual(std::vector<std::string>& word1, std::vector<std::string>& word2) {
@@ -24,6 +26,17 @@ public:
         }
         return (i == word1.size() && p == word2.size());
     } 
-    
+
+    //second solution:
+    bool arrayStringsAreEqual(std::vector<std::string>& word1, std::vector<std::string>& word2) {
+       string s1 = "", s2  = "";
+       for(string s: word1) s1 += s; 
+       for(string s: word2) s2 += s;
+       if(s1 == s2) return true; 
+       return false;
+    }
+
 };
+
+
 
